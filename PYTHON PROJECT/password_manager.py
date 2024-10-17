@@ -1,4 +1,4 @@
-from cryptography.fernet import Fernet, InvalidToken  # Correctly import InvalidToken
+from cryptography.fernet import Fernet, InvalidToken
 
 # Function to write the encryption key to a file (run once to generate the key)
 def write_key():
@@ -29,7 +29,7 @@ def view():
                         # Attempt to decrypt the password
                         decrypted_pass = fer.decrypt(encrypted_pass.encode()).decode()
                         print(f"User: {user} | Password: {decrypted_pass}")
-                    except InvalidToken:
+                    except cryptography.fernet.InvalidToken:
                         print(f"Error: Unable to decrypt the password for {user}. It may have been encrypted with a different key.")
                 else:
                     print("Malformed line, skipping.")
