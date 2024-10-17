@@ -1,5 +1,6 @@
 My Python Projects
-This repository contains several beginner-friendly Python projects that showcase different functionalities, ranging from encryption to simple mathematical operations and creative storytelling. Each project is designed to be simple, functional, and easy to understand.
+
+This repository contains several beginner-friendly Python projects showcasing different functionalities, from encryption to simple mathematical operations and creative storytelling. Each project is designed to be simple, functional, and understandable.
 
 Table of Contents
 Password Manager
@@ -8,7 +9,7 @@ Story Creator
 
 
 1. Password Manager
-This is a basic password manager built with Python and the cryptography module. It allows you to securely store and retrieve passwords. The passwords are encrypted using Fernet encryption, and you need a master password to access them.
+This is a basic password manager built with Python and the cryptography module. It allows you to securely store and retrieve passwords. The passwords are encrypted using Fernet encryption; you need a master password to access them.
 
 Features:
 Add new account names and their corresponding passwords.
