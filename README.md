@@ -5,7 +5,9 @@ This repository contains several beginner-friendly Python projects showcasing di
 Table of Contents
 
 Password Manager
+
 Easy Calcus (Simple Calculator)
+
 Story Creator
 
 
